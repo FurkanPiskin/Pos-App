@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Electrolize", sans-serif;
+
+  
+}
+.ant-table {
+  border-color: #ef4444; /* Tailwind'in red-500 rengi */
+}
+
+.ant-table td, 
+.ant-table th {
+  border-color: #ef4444; /* Tailwind'in red-500 rengi */
+}
+.ant-btn-primary{
+  background-color: #1677ff;
+}
+.categories::-webkit-scrollbar{
+  display: none;
+}
+.custom-column-class {
+  background-color: transparent;
+  font-weight: bold;
+  text-align: left;
+}
+
+.custom-cell-class {
+  
+  color: #000;
+  padding: 8px;
+}
+@media (min-width:768px){
+  body{
+    overflow: auto;
+  }
+
+  .categories::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+.menu-link .active{
+@apply text-[#40a9ff];  
+
+}
