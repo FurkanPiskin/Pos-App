@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mdYOp1qAD4QgwK0H2ymvKO1tLqUN3inaKa4J+H19x4o=",
+  "Source": "Pos_App_Backend",
+  "BasePath": "_content/Pos_App_Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
